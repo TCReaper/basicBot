@@ -2240,7 +2240,7 @@
             },
 
             killCommand: {
-                command: 'kill', 'shutdown', 'beajerk', 'switchoff'
+                command: 'kill', 'shutdown', 'beajerk', 'switchoff',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2819,7 +2819,7 @@
             },
 
             skipCommand: {
-                command: 'skip', 'bye', 'rekt'
+                command: 'skip', 'bye', 'rekt',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
