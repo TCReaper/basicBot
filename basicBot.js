@@ -212,7 +212,7 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 6.25,
+            maximumSongLength: 6,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -263,20 +263,20 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: true,
-            motdInterval: 3,
-            motd: "KEEP CALM AND BANANA AWAY",
+            motdEnabled: false,
+            motdInterval: 5,
+            motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: "http://padlet.com/TCReaper/bananasonly",
+            rulesLink: "https://padlet.com/TCReaper/bananasonly",
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: "https://steamcommunity.com/groups/TheUltimateBananaGroup",
-            intervalMessages: ["Ultimate Banana Group <3"],
-            messageInterval: 2,
+            website: "http://steamcommunity.com/groups/TheUltimateBananaGroup",
+            intervalMessages: [],
+            messageInterval: 5,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
@@ -2240,7 +2240,7 @@
             },
 
             killCommand: {
-                command: 'kill', 'shutdown', 'beajerk', 'switchoff',
+                command: 'kill',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2522,7 +2522,7 @@
             },
 
             moveCommand: {
-                command: 'move', 'm'
+                command: 'move',
                 rank: 'mod',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2819,7 +2819,7 @@
             },
 
             skipCommand: {
-                command: 'skip', 'bye', 'rekt',
+                command: 'skip',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
