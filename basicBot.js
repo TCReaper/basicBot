@@ -194,11 +194,11 @@
             botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            startupCap: 1, // 1-200
+            startupCap: 100, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupEmoji: true, // true or false
             cmdDeletion: true,
-            maximumAfk: 120,
+            maximumAfk: 45,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
@@ -212,7 +212,7 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 6.25,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -263,20 +263,20 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: false,
-            motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motdEnabled: true,
+            motdInterval: 3,
+            motd: "KEEP CALM AND BANANA AWAY",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: null,
+            rulesLink: "http://padlet.com/TCReaper/bananasonly",
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: null,
-            intervalMessages: [],
-            messageInterval: 5,
+            website: "https://steamcommunity.com/groups/TheUltimateBananaGroup",
+            intervalMessages: ["Ultimate Banana Group <3"],
+            messageInterval: 2,
             songstats: true,
             commandLiteral: "!",
             blacklists: {
@@ -2240,7 +2240,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'kill', 'shutdown', 'beajerk', 'switchoff'
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2522,7 +2522,7 @@
             },
 
             moveCommand: {
-                command: 'move',
+                command: 'move', 'm'
                 rank: 'mod',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2819,7 +2819,7 @@
             },
 
             skipCommand: {
-                command: 'skip',
+                command: 'skip', 'bye', 'rekt'
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
