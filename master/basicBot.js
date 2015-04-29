@@ -194,11 +194,11 @@
             botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            startupCap: 1, // 1-200
+            startupCap: 100, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupEmoji: true, // true or false
             cmdDeletion: true,
-            maximumAfk: 120,
+            maximumAfk: 45,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
@@ -212,11 +212,11 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 6,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            lockskipPosition: 3,
+            lockskipPosition: 2,
             lockskipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
@@ -263,18 +263,18 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: false,
-            motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motdEnabled: true,
+            motdInterval: 1,
+            motd: "KEEP CALM AND BANANA AWAY ( ͡° ͜ʖ ͡°)",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: null,
+            rulesLink: "https://padlet.com/TCReaper/bananasonly",
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: null,
+            website: "https://steamcommunity.com/groups/TheUltimateBananaGroup",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -1158,7 +1158,7 @@
                 'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
             ],
             curses: [
-                'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka'
+                'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka', 'fuck', 'bitch'
             ]
         },
         connectAPI: function () {
@@ -2240,7 +2240,7 @@
             },
 
             killCommand: {
-                command: 'kill',
+                command: 'kill', 'shutdown', 'switchoff', 'beajerk', 'killbot'
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2522,7 +2522,7 @@
             },
 
             moveCommand: {
-                command: 'move',
+                command: 'move', 'm',
                 rank: 'mod',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2555,7 +2555,7 @@
             },
 
             muteCommand: {
-                command: 'mute',
+                command: 'mute', 'silence'
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
