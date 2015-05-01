@@ -5,7 +5,7 @@
     "datarestored": "Previously stored data successfully retrieved.",
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
-    "online": "/me %%BOTNAME%% v%%VERSION%% online!",
+    "online": "/me %%BOTNAME%% v%%VERSION%% is back noobs!",
 
 
     "welcome": "/me Welcome %%NAME%%",
@@ -17,7 +17,7 @@
 
 
     "isopen": "/me The roulette is now open! Type !join to participate!",
-    "winnerpicked": "/me A winner has been picked! @%%NAME%% to position %%POSITION%%.",
+    "winnerpicked": "/me This guy won lol --> @%%NAME%%. He gets position %%POSITION%%.",
 
     "ball": "/me %%NAME%%'s question was: \"%%QUESTION%%\" and %%BOTNAME%%'s response is: \"%%RESPONSE%%\"",
 
@@ -41,7 +41,7 @@
 
 
     "caps": "/me @%%NAME%%, unglue your capslock button please.",
-    "askskip": "/me @%%NAME%%, don't ask for skips.",
+    "askskip": "/me @%%NAME%%, you better stop begging for skips.",
     "spam": "/me @%%NAME%%, please don't spam.",
     "roomadvertising": "/me @%%NAME%%, don't post links to other rooms please.",
     "adfly": "/me @%%NAME%%, please change your autowoot program. We suggest PlugCubed: http://plugcubed.net/",
@@ -100,7 +100,7 @@
     "chatcleared": "/me [@%%NAME%%] Cleared the chat.",
     "deletechat": "/me [@%%NAME%%] Cleared the chat of %%USERNAME%%.",
     "commandslink": "/me %%BOTNAME%% commands: %%LINK%%",
-    "eatcookie": "/me eats a cookie.",
+    "eatcookie": "/me is hungry and eats a cookie.",
     "nousercookie": "/em doesn't see %%NAME%% in room and eats a cookie himself.",
     "selfcookie": "/me @%%NAME%%, you're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
     "cookie": "/me @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%%",
@@ -109,15 +109,15 @@
     "emojilist": "/me Emoji list: %%LINK%%",
     "notinwaitlist": "/me @%%NAME%%, you are not on the waitlist.",
     "eta": "/me @%%NAME%% you will reach the booth in approximately %%TIME%%.",
-    "facebook": "/me Like us on facebook: %%LINK%%",
+    "facebook": "/me TCReaper's trade link: %%LINK%%",
     "starterhelp": "/me This image will get you started on plug: %%LINK%%",
-    "roulettejoin": "/me @%%NAME%% joined the roulette! (!leave if you regret it.)",
-    "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
+    "roulettejoin": "/me @%%NAME%% is swag! (!leave if you regret it.)",
+    "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% has been a hobo here for %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] you can't kick users with an equal or higher rank than you!",
     "kick": "/me [@%%NAME%%], @%%USERNAME%% you are being kicked from the community for %%TIME%% minutes.",
-    "kill": "/me Shutting down.",
+    "kill": "/me bye b****es.",
     "logout": "/me [@%%NAME%%] Logging out %%BOTNAME%%",
-    "rouletteleave": "/me @%%NAME%% left the roulette!",
+    "rouletteleave": "/me @%%NAME%% is too scared to join hah!",
     "songlink": "/me [@%%NAME%%] Link to current song: %%LINK%%",
     "usedlockskip": "/me [%%NAME%% used lockskip.]",
     "lockskippos": "/me [@%%NAME%%] Lockskip will now move the dj to position %%POSITION%%.",
@@ -126,7 +126,7 @@
     "motdset": "/me MotD set to:  %%MSG%%",
     "motdintervalset": "/me MotD interval set to %%INTERVAL%%.",
     "addbotwaitlist": "/me @%%NAME%%, don't try to add me to the waitlist, please.",
-    "move": "/me [%%NAME%% used move.]",
+    "move": "/me [%%NAME%% used some magic.]",
     "mutednotime": "/me [@%%NAME%%] Muted @%%USERNAME%%.",
     "mutedmaxtime": "/me [@%%NAME%%] You can only mute for maximum %%TIME%% minutes.",
     "mutedtime": "/me [@%%NAME%%] Muted @%%USERNAME%% for %%TIME%% minutes.",
@@ -138,7 +138,7 @@
     "removenotinwl": "/me [@%%NAME%%] Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "/me Please find the room rules here: %%LINK%%",
     "sessionstats": "/me [@%%NAME%%] Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
-    "skip": "/me [%%NAME%% used skip.]",
+    "skip": "/me [%%NAME%% used some magic.]",
     "madeby": "/me This bot was made by %%NAME%%.",
     "activefor": "I have been active for %%TIME%%.",
     "swapinvalid": "/me [@%%NAME%%] Invalid user specified. (No names with spaces!)",
