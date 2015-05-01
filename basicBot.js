@@ -274,7 +274,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: "http://steamcommunity.com/groups/TheUltimateBananaGroup",
+            website: "https://docs.google.com/document/d/1ZRXeYE1eDxwyC7lF1VLTea_h3gqCGLePTzX3DjLyUeQ/edit",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
