@@ -270,7 +270,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: "https://docs.google.com/document/d/1ZRXeYE1eDxwyC7lF1VLTea_h3gqCGLePTzX3DjLyUeQ/",
+            rulesLink: "http://goo.gl/byAfSS",
             themeLink: null,
             fbLink: "https://steamcommunity.com/tradeoffer/new/?partner=108659698&token=_d77GnIH",
             youtubeLink: null,
